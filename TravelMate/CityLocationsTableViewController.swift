@@ -8,9 +8,53 @@
 
 import UIKit
 
+struct City {
+    var id : Int
+    var title : String
+    var text : String
+    var image : String
+}
+
 class CityLocationsTableViewController: UITableViewController {
 
+    var allCities = [
+        City(id: 1,
+              title: "Amsterdam",
+              text: "Netherlands",
+              image: "amsterdam"),
+        City(id: 2,
+              title: "Berlin",
+              text: "Germany",
+              image: "berlin"),
+        City(id: 3,
+              title: "Dubai",
+              text: "United Arab Emirates",
+              image: ""),
+        City(id: 4,
+             title: "London",
+             text: "United Kingdom",
+             image: ""),
+        City(id: 5,
+             title: "Madrid",
+             text: "Spain",
+             image: ""),
+        City(id: 6,
+             title: "Moscow",
+             text: "Russia",
+             image: ""),
+        City(id: 7,
+             title: "Paris",
+             text: "France",
+             image: ""),
+        City(id: 8,
+             title: "Rome",
+             text: "Italy",
+             image: ""),
+    ]
     
+    
+    
+ /*
     var locations : [city] = []
     
     func createLocations() -> [city] {
@@ -26,10 +70,10 @@ class CityLocationsTableViewController: UITableViewController {
         return [swift, dog]
     }
 
-    
+ */
     override func viewDidLoad() {
         super.viewDidLoad()
-        locations = createLocations()
+    //    locations = createLocations()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -42,30 +86,29 @@ class CityLocationsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 10
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return locations.count
+        return allCities.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
+        cell.detailTextLabel?.text = allCities[indexPath.row].text
         
-        let city = locations[indexPath.row]
+        cell.imageView?.image = UIImage(named: allCities[indexPath.row].image)
         
-        if city.important {
-            cell.textLabel?.text = "❗️" + city.name
-        } else {
-            cell.textLabel?.text = city.name
-        }
-        
+        cell.textLabel?.text = allCities[indexPath.row].title
         return cell
     }
 
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "                                   CITIES 😎"
 
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

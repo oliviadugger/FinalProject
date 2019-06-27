@@ -13,8 +13,8 @@
 		7B10243A22C402E1008C62B7 /* TravelMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B10243822C402E1008C62B7 /* TravelMate.xcdatamodeld */; };
 		7B10243C22C402E2008C62B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B10243B22C402E2008C62B7 /* Assets.xcassets */; };
 		7B10243F22C402E2008C62B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B10243D22C402E2008C62B7 /* LaunchScreen.storyboard */; };
+		7B3B187522C462AC009EBD76 /* Airplane.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B3B187422C462AC009EBD76 /* Airplane.ttf */; };
 		7BFA49CA22C4135700003736 /* CityLocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA49C922C4135700003736 /* CityLocationsTableViewController.swift */; };
-		7BFA49CC22C415BF00003736 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA49CB22C415BF00003736 /* Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		7B10243B22C402E2008C62B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B10243E22C402E2008C62B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B10244022C402E2008C62B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B3B187422C462AC009EBD76 /* Airplane.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Airplane.ttf; path = ../../../../Downloads/Airplane/Airplane.ttf; sourceTree = "<group>"; };
 		7BFA49C922C4135700003736 /* CityLocationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLocationsTableViewController.swift; sourceTree = "<group>"; };
-		7BFA49CB22C415BF00003736 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				7B10243322C402E1008C62B7 /* ViewController.swift */,
 				7B10243522C402E1008C62B7 /* Main.storyboard */,
 				7BFA49C922C4135700003736 /* CityLocationsTableViewController.swift */,
-				7BFA49CB22C415BF00003736 /* Locations.swift */,
+				7B3B187422C462AC009EBD76 /* Airplane.ttf */,
 				7B10243B22C402E2008C62B7 /* Assets.xcassets */,
 				7B10243D22C402E2008C62B7 /* LaunchScreen.storyboard */,
 				7B10244022C402E2008C62B7 /* Info.plist */,
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B10242922C402E1008C62B7 /* Build configuration list for PBXProject "TravelMate" */;
+			buildConfigurationList = 7B10242922C402E1008C62B7 /* Build configuration list for PBXProject "TrekMate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3B187522C462AC009EBD76 /* Airplane.ttf in Resources */,
 				7B10243F22C402E2008C62B7 /* LaunchScreen.storyboard in Resources */,
 				7B10243C22C402E2008C62B7 /* Assets.xcassets in Resources */,
 				7B10243722C402E1008C62B7 /* Main.storyboard in Resources */,
@@ -147,7 +148,6 @@
 				7B10243A22C402E1008C62B7 /* TravelMate.xcdatamodeld in Sources */,
 				7BFA49CA22C4135700003736 /* CityLocationsTableViewController.swift in Sources */,
 				7B10243422C402E1008C62B7 /* ViewController.swift in Sources */,
-				7BFA49CC22C415BF00003736 /* Locations.swift in Sources */,
 				7B10243222C402E1008C62B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myname.TravelMate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.TrekMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myname.TravelMate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.TrekMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B10242922C402E1008C62B7 /* Build configuration list for PBXProject "TravelMate" */ = {
+		7B10242922C402E1008C62B7 /* Build configuration list for PBXProject "TrekMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B10244122C402E2008C62B7 /* Debug */,

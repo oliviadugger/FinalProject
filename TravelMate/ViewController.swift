@@ -17,10 +17,14 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func chooseYourTapped(_ sender: UIButton) {
+    @IBAction func chooseTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "homeToCities", sender: self)
+
     }
     
-    @IBAction func destinationTapped(_ sender: UIButton) {
+    @IBAction func destTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "homeToCities", sender: self)
+
     }
     
 }
