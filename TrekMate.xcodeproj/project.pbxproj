@@ -14,6 +14,7 @@
 		7B10243C22C402E2008C62B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B10243B22C402E2008C62B7 /* Assets.xcassets */; };
 		7B10243F22C402E2008C62B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B10243D22C402E2008C62B7 /* LaunchScreen.storyboard */; };
 		7B3B187522C462AC009EBD76 /* Airplane.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B3B187422C462AC009EBD76 /* Airplane.ttf */; };
+		7B3B187722C46BD2009EBD76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B3B187622C46BD2009EBD76 /* Default-568h@2x.png */; };
 		7BFA49CA22C4135700003736 /* CityLocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA49C922C4135700003736 /* CityLocationsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		7B10243E22C402E2008C62B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B10244022C402E2008C62B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3B187422C462AC009EBD76 /* Airplane.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Airplane.ttf; path = ../../../../Downloads/Airplane/Airplane.ttf; sourceTree = "<group>"; };
+		7B3B187622C46BD2009EBD76 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7BFA49C922C4135700003736 /* CityLocationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLocationsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +46,8 @@
 		7B10242522C402E1008C62B7 = {
 			isa = PBXGroup;
 			children = (
-				7B10243022C402E1008C62B7 /* TravelMate */,
+				7B3B187622C46BD2009EBD76 /* Default-568h@2x.png */,
+				7B10243022C402E1008C62B7 /* TrekMate */,
 				7B10242F22C402E1008C62B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +60,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B10243022C402E1008C62B7 /* TravelMate */ = {
+		7B10243022C402E1008C62B7 /* TrekMate */ = {
 			isa = PBXGroup;
 			children = (
 				7B10243122C402E1008C62B7 /* AppDelegate.swift */,
@@ -70,7 +73,7 @@
 				7B10244022C402E2008C62B7 /* Info.plist */,
 				7B10243822C402E1008C62B7 /* TravelMate.xcdatamodeld */,
 			);
-			path = TravelMate;
+			path = TrekMate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +137,7 @@
 				7B3B187522C462AC009EBD76 /* Airplane.ttf in Resources */,
 				7B10243F22C402E2008C62B7 /* LaunchScreen.storyboard in Resources */,
 				7B10243C22C402E2008C62B7 /* Assets.xcassets in Resources */,
+				7B3B187722C46BD2009EBD76 /* Default-568h@2x.png in Resources */,
 				7B10243722C402E1008C62B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5LH8NHU93;
-				INFOPLIST_FILE = TravelMate/Info.plist;
+				INFOPLIST_FILE = TrekMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5LH8NHU93;
-				INFOPLIST_FILE = TravelMate/Info.plist;
+				INFOPLIST_FILE = TrekMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
